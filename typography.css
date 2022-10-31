@@ -1,12 +1,31 @@
 body {
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 2em;
 }
 
-center {
+.box{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-content: center;
+    vertical-align: top;
+}
+
+.horizontalSplit {
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+.characters {
+    line-height: 1px;
+    
 }
 
 .workSans {
