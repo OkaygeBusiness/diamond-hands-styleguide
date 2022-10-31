@@ -3,6 +3,12 @@ body {
     margin-right: 25em;
 }
 
+center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .workSans {
     font-family: 'Work Sans', sans-serif;
 }
