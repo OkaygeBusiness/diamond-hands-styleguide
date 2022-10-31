@@ -8,9 +8,17 @@ body {
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.5em;
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
 
 .graphicsContainer {
     display: flex;
+    justify-content: center;
+}
+
+.graphicsContainerColumn {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
