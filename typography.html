@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diamond Hands</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-<body>
-    <h1 style="font-size:50px">Typography</h1>
-    <hr>
-    <div class="explanation">
-        <p class="headingFour">For typography, we chose <a href="https://fonts.google.com/specimen/Hind">Hind</a> and 
-            <a href="https://fonts.google.com/specimen/Work+Sans">Work Sans</a> to be our main font faces. These are two san-serif fonts that have 
-            a simple yet modern and strong design, making it a perfect choice for finance related apps. We also found that the majority of fintech
-            websites use similar or identical font faces, backing up our choices. Having these modern style fonts can also make the overall
-            appearance friendlier for unfamiliar and new users, but also maintaining a professional feel. 
-        </p>
-        <p class="headingFour">
-            For the hierarchy, because Work Sans has a wider letter spacing, we decided to use it for the headings, subheadings, and buttons. Because 
-            Hind is slightly taller and has a more narrow letter spacing, we decided to use it for the body text. Also, Hind is less stylized and 
-            contains less tails in the letters, making it easier to read (<span class="workSans">g</span> vs <span class="hind">g</span> and 
-            <span class="workSans">a</span> vs <span class="hind">a</span>).
-        </p>
-        <p class="headingFour">Because we want to emphasize readability, we are only going to use font weights semibold, medium, or regular. For font 
-            colors, all the text will be black or white, depending on the background. Colored text, such as <span style="color:#00FF00">green</span> 
-            and <span style="color:#ff0000">red</span> for the stock information, or <span style="color:#0096FF">blue</span> for any links will still 
-            follow the same hierarchy as the other text.
-        </p>
-    </div>
-    <hr>
-    <div class="box">
-        <div class="workSans container">
-            <h2 style="font-size:40px">Work Sans</h2>
-            <div class="paragraph characters">
-                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                <p>abcdefghijklmnopqrstuvwxyz</p>
-                <p>1234567890</p>
-            </div>
-            <p class="headingOne semibold">H1 - 36px - Semibold</p>
-            <p class="light">Logo, page titles, and headings text.</p>
-            <p class="headingTwo medium">H2 - 28px - Medium</p>
-            <p class="light">Section titles, subheadings, and large button text.</p>
-            <p class="headingThree medium">H3 - 24px - Medium</p>
-            <p class="light">Main button, menu, sidebars, and label text.</p>
-            <p class="paragraph regular">P - 18px - Regular</p>
-            <p class="light">Small button text.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Diamond Hands</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="typography.css" />
+        <link rel="stylesheet" href="navbar.css" />
+    </head>
+    <body>
+        <header>
+            <img src="/public/images/DiamondHandsLogo.png" />
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/logo.html">Logo</a></li>
+                    <li><a href="/colourpalette.html">Colour Palette</a></li>
+                    <li><a href="/typography.html">Typography</a></li>
+                    <li><a href="/graphics.html">Graphics and Icons</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 style="font-size: 50px">Typography</h1>
+        <hr />
+        <div class="explanation">
+            <p class="headingFour">
+                For typography, we chose
+                <a href="https://fonts.google.com/specimen/Hind">Hind</a> and
+                <a href="https://fonts.google.com/specimen/Work+Sans">Work Sans</a> to be our main
+                font faces. These are two san-serif fonts that have a simple yet modern and strong
+                design, making it a perfect choice for finance related apps. We also found that the
+                majority of fintech websites use similar or identical font faces, backing up our
+                choices. Having these modern style fonts can also make the overall appearance
+                friendlier for unfamiliar and new users, but also maintaining a professional feel.
+            </p>
+            <p class="headingFour">
+                For the hierarchy, because Work Sans has a wider letter spacing, we decided to use
+                it for the headings, subheadings, and buttons. Because Hind is slightly taller and
+                has a more narrow letter spacing, we decided to use it for the body text. Also, Hind
+                is less stylized and contains less tails in the letters, making it easier to read
+                (<span class="workSans">g</span> vs <span class="hind">g</span> and
+                <span class="workSans">a</span> vs <span class="hind">a</span>).
+            </p>
+            <p class="headingFour">
+                Because we want to emphasize readability, we are only going to use font weights
+                semibold, medium, or regular. For font colors, all the text will be black or white,
+                depending on the background. Colored text, such as
+                <span style="color: #00ff00">green</span> and
+                <span style="color: #ff0000">red</span> for the stock information, or
+                <span style="color: #0096ff">blue</span> for any links will still follow the same
+                hierarchy as the other text.
+            </p>
         </div>
-        <hr class="horizontalSplit">
-        <div class="hind container">
-            <h2 style="font-size:40px">Hind</h2>
-            <div class="paragraph characters">
-                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                <p>abcdefghijklmnopqrstuvwxyz</p>
-                <p>1234567890</p>
+        <hr />
+        <div class="box">
+            <div class="workSans container">
+                <h2 style="font-size: 40px">Work Sans</h2>
+                <div class="paragraph characters">
+                    <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                    <p>abcdefghijklmnopqrstuvwxyz</p>
+                    <p>1234567890</p>
+                </div>
+                <p class="headingOne semibold">H1 - 36px - Semibold</p>
+                <p class="light">Logo, page titles, and headings text.</p>
+                <p class="headingTwo medium">H2 - 28px - Medium</p>
+                <p class="light">Section titles, subheadings, and large button text.</p>
+                <p class="headingThree medium">H3 - 24px - Medium</p>
+                <p class="light">Main button, menu, sidebars, and label text.</p>
+                <p class="paragraph regular">P - 18px - Regular</p>
+                <p class="light">Small button text.</p>
             </div>
-            <p class="headingThree medium">H3 - 24px - Medium</p>
-            <p class="light">Subtitle, alternate subheading, and sub-description text.</p>
-            <p class="headingFour regular">H4 - 20px - Regular</p>
-            <p class="light">Stock title and main description text.</p>
-            <p class="paragraph regular">P - 18px - Regular</p>
-            <p class="light">Footer, sub text, and stock sub-information.</p>
+            <hr class="horizontalSplit" />
+            <div class="hind container">
+                <h2 style="font-size: 40px">Hind</h2>
+                <div class="paragraph characters">
+                    <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                    <p>abcdefghijklmnopqrstuvwxyz</p>
+                    <p>1234567890</p>
+                </div>
+                <p class="headingThree medium">H3 - 24px - Medium</p>
+                <p class="light">Subtitle, alternate subheading, and sub-description text.</p>
+                <p class="headingFour regular">H4 - 20px - Regular</p>
+                <p class="light">Stock title and main description text.</p>
+                <p class="paragraph regular">P - 18px - Regular</p>
+                <p class="light">Footer, sub text, and stock sub-information.</p>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
