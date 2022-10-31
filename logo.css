@@ -5,12 +5,11 @@ body {
 h1,
 h2 {
   font-family: "work sans", sans-serif;
-  font-size: 36px;
 }
 
 p {
   font-family: "hind", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .logo-variants img {
