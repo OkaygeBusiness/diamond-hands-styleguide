@@ -1,7 +1,5 @@
 .content {
-    margin-left: 20em;
-    margin-right: 20em;
-    margin-bottom: 2em;
+    margin: 0 20% 2em 20%;
 }
 
 .box{
@@ -19,8 +17,8 @@
 }
 
 .horizontalSplit {
-    margin-left: 9em;
-    margin-right: 9em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .characters {
