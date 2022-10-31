@@ -15,7 +15,7 @@ p {
 .logo-variants img {
   width: 100px;
 }
-ul {
+.body ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ ul {
   text-align: center;
 }
 
-li {
+.body li {
   float: left;
   margin: 9%;
 }
