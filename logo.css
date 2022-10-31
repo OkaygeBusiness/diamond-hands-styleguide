@@ -1,31 +1,32 @@
 body {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    }
-
-h1,h2 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+h1,
+h2 {
   font-family: "work sans", sans-serif;
   font-size: 36px;
 }
 
 p {
-    font-family: "hind", sans-serif;
-    font-size: 24px;
+  font-family: "hind", sans-serif;
+  font-size: 24px;
 }
 
-.logo-variants img{
-    width:100px;
+.logo-variants img {
+  width: 100px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  li {
-    float: left;
-    margin: 6%;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+  float: left;
+  margin: 6%;
+}
